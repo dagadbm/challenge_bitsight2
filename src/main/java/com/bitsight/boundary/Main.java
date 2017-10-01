@@ -9,9 +9,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by David on 01/10/2017.
- */
 public class Main {
 
     public static void main(String[] args) {
@@ -37,7 +34,9 @@ public class Main {
                         dependencies.add(Integer.valueOf(tokens[i]));
                     }
 
-                    dp.addAllDependencies(task, dependencies.stream().mapToInt(Integer::intValue).toArray());
+                    dp.addAllDependencies(task, dependencies.stream()
+                                                            .mapToInt(Integer::intValue)
+                                                            .toArray());
                 }
             }
 

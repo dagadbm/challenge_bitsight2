@@ -5,9 +5,6 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-/**
- * Created by David on 30/09/2017.
- */
 public class DependencyManagerTest {
 
     DependencyManager underTest;

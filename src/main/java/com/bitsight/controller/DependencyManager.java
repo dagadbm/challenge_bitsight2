@@ -1,5 +1,8 @@
 package com.bitsight.controller;
 
+/**
+ * Interface to solve dependency management problem
+ */
 public interface DependencyManager {
     /**
      * Initialize the dependency manager with the total number of tasks to be resolved

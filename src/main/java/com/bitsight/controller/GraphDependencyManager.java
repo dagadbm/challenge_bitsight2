@@ -7,6 +7,9 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+/**
+ * Implements DependencyManager interface using Graphs and DFS like traversing as the solution
+ */
 public class GraphDependencyManager implements DependencyManager {
 
     /**
@@ -54,7 +57,7 @@ public class GraphDependencyManager implements DependencyManager {
             return;
         }
 
-        // traverse all adjacencies
+        // traverse all children
         for (Integer e : children) {
             if (!isResolved(e)) {
                 traverse(e);
