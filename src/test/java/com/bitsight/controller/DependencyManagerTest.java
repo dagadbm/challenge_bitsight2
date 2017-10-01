@@ -3,25 +3,27 @@ package com.bitsight.controller;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.Arrays;
+
 import static org.junit.Assert.assertEquals;
 
 public class DependencyManagerTest {
 
-    DependencyManager underTest;
+    DependencyManagement underTest;
 
     @Before
     public void setUp() {
-        underTest = new GraphDependencyManager();
+        underTest = new DependencyManager();
     }
 
     @Test
     public void exercise() {
         underTest.init(5);
 
-        underTest.addAllDependencies(3, 1, 5);
-        underTest.addAllDependencies(2, 5, 3);
-        underTest.addAllDependencies(4, 3);
-        underTest.addAllDependencies(5, 1);
+        underTest.addAllDependencies(3, Arrays.asList(1, 5));
+        underTest.addAllDependencies(2, Arrays.asList(5, 3));
+        underTest.addAllDependencies(4, Arrays.asList(3));
+        underTest.addAllDependencies(5, Arrays.asList(1));
 
         final String result = underTest.resolve();
         assertEquals("1 5 3 2 4", result);
@@ -49,7 +51,7 @@ public class DependencyManagerTest {
         underTest.init(tasks);
 
         for (int i = 2; i < tasks; i++) {
-            underTest.addAllDependencies(i, i + 1);
+            underTest.addAllDependencies(i, Arrays.asList(i + 1));
         }
 
         underTest.resolve();
@@ -59,9 +61,9 @@ public class DependencyManagerTest {
     public void sortedEdgeCase() {
         underTest.init(5);
 
-        underTest.addAllDependencies(2, 5, 3);
-        underTest.addAllDependencies(3, 1, 4);
-        underTest.addAllDependencies(4, 1);
+        underTest.addAllDependencies(2, Arrays.asList(5, 3));
+        underTest.addAllDependencies(3, Arrays.asList(1, 4));
+        underTest.addAllDependencies(4, Arrays.asList(1));
 
         final String result = underTest.resolve();
         assertEquals("1 4 3 5 2", result);
@@ -71,8 +73,8 @@ public class DependencyManagerTest {
     public void simpleCase() {
         underTest.init(3);
 
-        underTest.addAllDependencies(1, 2);
-        underTest.addAllDependencies(3, 1);
+        underTest.addAllDependencies(1, Arrays.asList(2));
+        underTest.addAllDependencies(3, Arrays.asList(1));
 
         final String result = underTest.resolve();
         assertEquals("2 1 3", result);
@@ -82,9 +84,9 @@ public class DependencyManagerTest {
     public void firstTaskDependsOnLast() {
         underTest.init(5);
 
-        underTest.addAllDependencies(1, 5);
-        underTest.addAllDependencies(2, 4, 1);
-        underTest.addAllDependencies(3, 2);
+        underTest.addAllDependencies(1, Arrays.asList(5));
+        underTest.addAllDependencies(2, Arrays.asList(4, 1));
+        underTest.addAllDependencies(3, Arrays.asList(2));
 
         final String result = underTest.resolve();
         assertEquals("4 5 1 2 3", result);
