@@ -1,6 +1,9 @@
 package com.bitsight.controller;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedHashSet;
+import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -9,7 +12,7 @@ public class GraphDependencyManager implements DependencyManager {
     /**
      * Grap representation of the dependencies
      */
-    private Map<Integer, List<Integer>> adjacencies;
+    private List<Integer> adjacencies[];
     private static final Integer DUMMY_ROOT = Integer.valueOf(0);
 
     /**
@@ -19,54 +22,47 @@ public class GraphDependencyManager implements DependencyManager {
     Set<Integer> resolvedDependencies = new LinkedHashSet();
 
     public void init(int numberOfTasks) {
-        adjacencies = new HashMap<>(numberOfTasks);
-
-        // initialise all tasks
-        adjacencies.putAll(IntStream.rangeClosed(0, numberOfTasks)
-                .boxed()
-                .collect(Collectors.toMap(Integer::valueOf, ArrayList::new)));
+        adjacencies = new ArrayList[numberOfTasks + 1];
 
         // create dummy root node with all tasks as edges for traversal
-        adjacencies.put(0, IntStream.rangeClosed(1, numberOfTasks)
-                .boxed()
-                .collect(Collectors.toList()));
+        adjacencies[0] = IntStream.rangeClosed(1, numberOfTasks)
+                                  .boxed()
+                                  .collect(Collectors.toList());
     }
 
     public void addAllDependencies(int task, int... dependencies) {
-        adjacencies.put(task, IntStream.of(dependencies)
-                .boxed()
-                .sorted() //lower node numbers first for correct priority traversal
-                .collect(Collectors.toList()));
+        adjacencies[task] = IntStream.of(dependencies)
+                                     .boxed()
+                                     .sorted() //lower node numbers first for correct priority traversal
+                                     .collect(Collectors.toList());
     }
 
     public String resolve() {
         traverse(DUMMY_ROOT);
         return resolvedDependencies.stream()
-                .map(String::valueOf)
-                .collect(Collectors.joining(" "));
+                                   .map(String::valueOf)
+                                   .collect(Collectors.joining(" "));
     }
 
     private void traverse(Integer node) {
-        final List<Integer> children = adjacencies.get(node);
+        final List<Integer> children = this.adjacencies[node];
         // stopping condition
         if (isResolved(node)) {
             return;
-        } else if (children == null) {
-            return;
-        } else if (isResolved(children)) {
+        } else if (children == null || isResolved(children)) {
             resolvedDependencies.add(node);
             return;
         }
 
-        // traverse all children
+        // traverse all adjacencies
         for (Integer e : children) {
             if (!isResolved(e)) {
                 traverse(e);
             }
         }
 
-        // check if there were changes in the nodes children after traversing (ignore dummy root)
-        if (!isDummyRoot(node) && isResolved(children)) {
+        // check if there were changes in the nodes adjacencies after traversing (ignore dummy root)
+        if (node != DUMMY_ROOT && isResolved(children)) {
             resolvedDependencies.add(node);
         }
     }
@@ -83,10 +79,6 @@ public class GraphDependencyManager implements DependencyManager {
             }
         }
         return true;
-    }
-
-    private boolean isDummyRoot(Integer parent) {
-        return parent == DUMMY_ROOT;
     }
 }
 

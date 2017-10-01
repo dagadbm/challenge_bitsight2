@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="460c2306-f8e7-45ae-95ed-6658a82d73ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bitsight/controller/GraphDependencyManager.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/bitsight/entity/Edge.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/bitsight/entity/GraphImplementation.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bitsight/entity/GraphImplementation.class" afterPath="$PROJECT_DIR$/target/classes/com/bitsight/entity/GraphImplementation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/bitsight/controller/ProjectFileParser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bitsight/entity/Edge.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bitsight/entity/GraphImplementation.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/bitsight/boundary/Main.class" afterPath="$PROJECT_DIR$/target/classes/com/bitsight/boundary/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/bitsight/controller/DependencyManagerTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/bitsight/controller/DependencyManagerTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bitsight/controller/DependencyManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/bitsight/controller/DependencyManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/bitsight/controller/DependencyManagerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/bitsight/controller/DependencyManagerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bitsight/controller/GraphDependencyManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/bitsight/controller/GraphDependencyManager.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,10 +36,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/boundary/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="384">
               <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -61,91 +61,36 @@
       <file leaf-file-name="System.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/System.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15725">
+            <state relative-caret-position="17">
               <caret line="969" column="23" lean-forward="false" selection-start-line="969" selection-start-column="23" selection-end-line="969" selection-end-column="23" />
               <folding>
-                <element signature="e#0#53706#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#11566#11567#0" expanded="false" />
-                <element signature="e#11597#11598#0" expanded="false" />
-                <element signature="e#26565#26566#0" expanded="false" />
-                <element signature="e#26601#26602#0" expanded="false" />
-                <element signature="e#40917#40918#0" expanded="false" />
-                <element signature="e#40958#40959#0" expanded="false" />
-                <element signature="e#41780#41781#0" expanded="false" />
-                <element signature="e#41834#41835#0" expanded="false" />
-                <element signature="e#43077#43078#0" expanded="false" />
-                <element signature="e#43127#43128#0" expanded="false" />
-                <element signature="e#44970#44971#0" expanded="false" />
-                <element signature="e#45051#45052#0" expanded="false" />
-                <element signature="e#51559#51560#0" expanded="false" />
-                <element signature="e#51621#51622#0" expanded="false" />
-                <element signature="e#51882#51883#0" expanded="false" />
-                <element signature="e#51946#51947#0" expanded="false" />
-                <element signature="e#52191#52192#0" expanded="false" />
-                <element signature="e#52255#52256#0" expanded="false" />
-                <element signature="e#52326#52327#0" expanded="false" />
-                <element signature="e#52394#52395#0" expanded="false" />
-                <element signature="e#52670#52671#0" expanded="false" />
-                <element signature="e#52739#52740#0" expanded="false" />
-                <element signature="e#52802#52803#0" expanded="false" />
-                <element signature="e#52848#52849#0" expanded="false" />
-                <element signature="e#53097#53098#0" expanded="false" />
-                <element signature="e#53158#53159#0" expanded="false" />
-                <element signature="e#53238#53239#0" expanded="false" />
-                <element signature="e#53302#53303#0" expanded="false" />
-                <element signature="e#53360#53361#0" expanded="false" />
-                <element signature="e#53422#53423#0" expanded="false" />
+                <element signature="e#40171#40172#0" expanded="true" />
+                <element signature="e#40220#40221#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectFileParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/controller/ProjectFileParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Files.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/nio/file/Files.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53635">
-              <caret line="3240" column="31" lean-forward="false" selection-start-line="3240" selection-start-column="31" selection-end-line="3240" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#169439#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#2577#2578#0" expanded="false" />
-                <element signature="e#2631#2632#0" expanded="false" />
-                <element signature="e#22197#22198#0" expanded="false" />
-                <element signature="e#22272#22273#0" expanded="false" />
-                <element signature="e#70449#70450#0" expanded="false" />
-                <element signature="e#70543#70544#0" expanded="false" />
-                <element signature="e#111862#111863#0" expanded="false" />
-                <element signature="e#111920#111921#0" expanded="false" />
-                <element signature="e#113425#113426#0" expanded="false" />
-                <element signature="e#113484#113485#0" expanded="false" />
-                <element signature="e#115258#115259#0" expanded="false" />
-                <element signature="e#115319#115320#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphDependencyManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GraphDependencyManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/controller/GraphDependencyManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-867">
-              <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            <state relative-caret-position="969">
+              <caret line="64" column="18" lean-forward="false" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
               <folding>
-                <element signature="e#2387#2388#0" expanded="true" />
-                <element signature="e#2447#2448#0" expanded="true" />
-                <element signature="e#2791#2792#0" expanded="true" />
-                <element signature="e#2834#2835#0" expanded="true" />
+                <element signature="e#2359#2360#0" expanded="true" />
+                <element signature="e#2419#2420#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="833" column="0" lean-forward="false" selection-start-line="833" selection-start-column="0" selection-end-line="833" selection-end-column="0" />
+              <folding>
+                <element signature="e#30716#30717#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -174,8 +119,8 @@
       <file leaf-file-name="DependencyManagerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/bitsight/controller/DependencyManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="510">
+              <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -198,6 +143,7 @@
     <findStrings>
       <find>remove()</find>
       <find>push(</find>
+      <find>dummy</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -422,6 +368,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -1068,44 +1015,44 @@
       <updated>1506784777275</updated>
       <workItem from="1506784781970" duration="13847000" />
       <workItem from="1506824242495" duration="397000" />
-      <workItem from="1506845399955" duration="3969000" />
+      <workItem from="1506845399955" duration="5249000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DependencyManagerTest - 2017.10.01 at 09h 55m 55s.xml">
+    <history-entry file="DependencyManagerTest - 2017.10.01 at 10h 29m 41s.xml">
       <configuration name="DependencyManagerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyManagerTest - 2017.10.01 at 09h 56m 39s.xml">
+    <history-entry file="DependencyManagerTest - 2017.10.01 at 10h 30m 57s.xml">
       <configuration name="DependencyManagerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyManagerTest - 2017.10.01 at 09h 56m 47s.xml">
+    <history-entry file="DependencyManagerTest - 2017.10.01 at 10h 33m 27s.xml">
       <configuration name="DependencyManagerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyManagerTest - 2017.10.01 at 10h 05m 18s.xml">
+    <history-entry file="DependencyManagerTest - 2017.10.01 at 10h 36m 08s.xml">
       <configuration name="DependencyManagerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyManagerTest - 2017.10.01 at 10h 05m 27s.xml">
+    <history-entry file="DependencyManagerTest - 2017.10.01 at 10h 36m 32s.xml">
       <configuration name="DependencyManagerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyManagerTest - 2017.10.01 at 10h 05m 50s.xml">
+    <history-entry file="DependencyManagerTest - 2017.10.01 at 10h 36m 48s.xml">
       <configuration name="DependencyManagerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyManagerTest - 2017.10.01 at 10h 08m 09s.xml">
-      <configuration name="DependencyManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DependencyManagerTest - 2017.10.01 at 10h 11m 01s.xml">
-      <configuration name="DependencyManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DependencyManagerTest_exercise - 2017.10.01 at 09h 55m 43s.xml">
+    <history-entry file="DependencyManagerTest_exercise - 2017.10.01 at 10h 27m 53s.xml">
       <configuration name="DependencyManagerTest.exercise" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependencyManagerTest_exercise - 2017.10.01 at 09h 55m 49s.xml">
+    <history-entry file="DependencyManagerTest_exercise - 2017.10.01 at 10h 29m 34s.xml">
+      <configuration name="DependencyManagerTest.exercise" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DependencyManagerTest_exercise - 2017.10.01 at 10h 30m 45s.xml">
+      <configuration name="DependencyManagerTest.exercise" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DependencyManagerTest_exercise - 2017.10.01 at 10h 33m 21s.xml">
       <configuration name="DependencyManagerTest.exercise" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18213000" />
+    <option name="totallyTimeSpent" value="19493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
@@ -1114,32 +1061,32 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553648" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1165,7 +1112,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/bitsight/controller/GraphDependencyManager.java</url>
-          <line>63</line>
+          <line>59</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
@@ -1175,8 +1122,14 @@
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bitsight/controller/GraphDependencyManager.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="18" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -1223,38 +1176,8 @@
         <state relative-caret-position="16473">
           <caret line="969" column="23" lean-forward="false" selection-start-line="969" selection-start-column="23" selection-end-line="969" selection-end-column="23" />
           <folding>
-            <element signature="e#0#53706#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#11566#11567#0" expanded="false" />
-            <element signature="e#11597#11598#0" expanded="false" />
-            <element signature="e#26565#26566#0" expanded="false" />
-            <element signature="e#26601#26602#0" expanded="false" />
-            <element signature="e#40917#40918#0" expanded="false" />
-            <element signature="e#40958#40959#0" expanded="false" />
-            <element signature="e#41780#41781#0" expanded="false" />
-            <element signature="e#41834#41835#0" expanded="false" />
-            <element signature="e#43077#43078#0" expanded="false" />
-            <element signature="e#43127#43128#0" expanded="false" />
-            <element signature="e#44970#44971#0" expanded="false" />
-            <element signature="e#45051#45052#0" expanded="false" />
-            <element signature="e#51559#51560#0" expanded="false" />
-            <element signature="e#51621#51622#0" expanded="false" />
-            <element signature="e#51882#51883#0" expanded="false" />
-            <element signature="e#51946#51947#0" expanded="false" />
-            <element signature="e#52191#52192#0" expanded="false" />
-            <element signature="e#52255#52256#0" expanded="false" />
-            <element signature="e#52326#52327#0" expanded="false" />
-            <element signature="e#52394#52395#0" expanded="false" />
-            <element signature="e#52670#52671#0" expanded="false" />
-            <element signature="e#52739#52740#0" expanded="false" />
-            <element signature="e#52802#52803#0" expanded="false" />
-            <element signature="e#52848#52849#0" expanded="false" />
-            <element signature="e#53097#53098#0" expanded="false" />
-            <element signature="e#53158#53159#0" expanded="false" />
-            <element signature="e#53238#53239#0" expanded="false" />
-            <element signature="e#53302#53303#0" expanded="false" />
-            <element signature="e#53360#53361#0" expanded="false" />
-            <element signature="e#53422#53423#0" expanded="false" />
+            <element signature="e#40171#40172#0" expanded="true" />
+            <element signature="e#40220#40221#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1308,10 +1231,8 @@
         <state relative-caret-position="561">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
-            <element signature="e#2387#2388#0" expanded="true" />
-            <element signature="e#2447#2448#0" expanded="true" />
-            <element signature="e#2791#2792#0" expanded="true" />
-            <element signature="e#2834#2835#0" expanded="true" />
+            <element signature="e#2359#2360#0" expanded="true" />
+            <element signature="e#2419#2420#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1355,38 +1276,8 @@
         <state relative-caret-position="16473">
           <caret line="969" column="23" lean-forward="false" selection-start-line="969" selection-start-column="23" selection-end-line="969" selection-end-column="23" />
           <folding>
-            <element signature="e#0#53706#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#11566#11567#0" expanded="false" />
-            <element signature="e#11597#11598#0" expanded="false" />
-            <element signature="e#26565#26566#0" expanded="false" />
-            <element signature="e#26601#26602#0" expanded="false" />
-            <element signature="e#40917#40918#0" expanded="false" />
-            <element signature="e#40958#40959#0" expanded="false" />
-            <element signature="e#41780#41781#0" expanded="false" />
-            <element signature="e#41834#41835#0" expanded="false" />
-            <element signature="e#43077#43078#0" expanded="false" />
-            <element signature="e#43127#43128#0" expanded="false" />
-            <element signature="e#44970#44971#0" expanded="false" />
-            <element signature="e#45051#45052#0" expanded="false" />
-            <element signature="e#51559#51560#0" expanded="false" />
-            <element signature="e#51621#51622#0" expanded="false" />
-            <element signature="e#51882#51883#0" expanded="false" />
-            <element signature="e#51946#51947#0" expanded="false" />
-            <element signature="e#52191#52192#0" expanded="false" />
-            <element signature="e#52255#52256#0" expanded="false" />
-            <element signature="e#52326#52327#0" expanded="false" />
-            <element signature="e#52394#52395#0" expanded="false" />
-            <element signature="e#52670#52671#0" expanded="false" />
-            <element signature="e#52739#52740#0" expanded="false" />
-            <element signature="e#52802#52803#0" expanded="false" />
-            <element signature="e#52848#52849#0" expanded="false" />
-            <element signature="e#53097#53098#0" expanded="false" />
-            <element signature="e#53158#53159#0" expanded="false" />
-            <element signature="e#53238#53239#0" expanded="false" />
-            <element signature="e#53302#53303#0" expanded="false" />
-            <element signature="e#53360#53361#0" expanded="false" />
-            <element signature="e#53422#53423#0" expanded="false" />
+            <element signature="e#40171#40172#0" expanded="true" />
+            <element signature="e#40220#40221#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1440,10 +1331,8 @@
         <state relative-caret-position="731">
           <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding>
-            <element signature="e#2387#2388#0" expanded="true" />
-            <element signature="e#2447#2448#0" expanded="true" />
-            <element signature="e#2791#2792#0" expanded="true" />
-            <element signature="e#2834#2835#0" expanded="true" />
+            <element signature="e#2359#2360#0" expanded="true" />
+            <element signature="e#2419#2420#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1480,13 +1369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="105" column="13" lean-forward="false" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1585,14 +1467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/controller/DependencyManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/entity/Edge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1603,41 +1477,11 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15725">
+        <state relative-caret-position="17">
           <caret line="969" column="23" lean-forward="false" selection-start-line="969" selection-start-column="23" selection-end-line="969" selection-end-column="23" />
           <folding>
-            <element signature="e#0#53706#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#11566#11567#0" expanded="false" />
-            <element signature="e#11597#11598#0" expanded="false" />
-            <element signature="e#26565#26566#0" expanded="false" />
-            <element signature="e#26601#26602#0" expanded="false" />
-            <element signature="e#40917#40918#0" expanded="false" />
-            <element signature="e#40958#40959#0" expanded="false" />
-            <element signature="e#41780#41781#0" expanded="false" />
-            <element signature="e#41834#41835#0" expanded="false" />
-            <element signature="e#43077#43078#0" expanded="false" />
-            <element signature="e#43127#43128#0" expanded="false" />
-            <element signature="e#44970#44971#0" expanded="false" />
-            <element signature="e#45051#45052#0" expanded="false" />
-            <element signature="e#51559#51560#0" expanded="false" />
-            <element signature="e#51621#51622#0" expanded="false" />
-            <element signature="e#51882#51883#0" expanded="false" />
-            <element signature="e#51946#51947#0" expanded="false" />
-            <element signature="e#52191#52192#0" expanded="false" />
-            <element signature="e#52255#52256#0" expanded="false" />
-            <element signature="e#52326#52327#0" expanded="false" />
-            <element signature="e#52394#52395#0" expanded="false" />
-            <element signature="e#52670#52671#0" expanded="false" />
-            <element signature="e#52739#52740#0" expanded="false" />
-            <element signature="e#52802#52803#0" expanded="false" />
-            <element signature="e#52848#52849#0" expanded="false" />
-            <element signature="e#53097#53098#0" expanded="false" />
-            <element signature="e#53158#53159#0" expanded="false" />
-            <element signature="e#53238#53239#0" expanded="false" />
-            <element signature="e#53302#53303#0" expanded="false" />
-            <element signature="e#53360#53361#0" expanded="false" />
-            <element signature="e#53422#53423#0" expanded="false" />
+            <element signature="e#40171#40172#0" expanded="true" />
+            <element signature="e#40220#40221#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1647,16 +1491,6 @@
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/boundary/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1676,6 +1510,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="833" column="0" lean-forward="false" selection-start-line="833" selection-start-column="0" selection-end-line="833" selection-end-column="0" />
+          <folding>
+            <element signature="e#30716#30717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bitsight/controller/DependencyManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/controller/DependencyManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/controller/GraphDependencyManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="64" column="18" lean-forward="false" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+          <folding>
+            <element signature="e#2359#2360#0" expanded="true" />
+            <element signature="e#2419#2420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/controller/ProjectFileParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1684,25 +1557,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bitsight/controller/DependencyManagerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/boundary/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="384">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/controller/GraphDependencyManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-867">
-          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding>
-            <element signature="e#2387#2388#0" expanded="true" />
-            <element signature="e#2447#2448#0" expanded="true" />
-            <element signature="e#2791#2792#0" expanded="true" />
-            <element signature="e#2834#2835#0" expanded="true" />
           </folding>
         </state>
       </provider>
