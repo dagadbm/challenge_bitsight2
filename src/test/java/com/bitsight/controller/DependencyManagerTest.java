@@ -1,6 +1,5 @@
 package com.bitsight.controller;
 
-import com.bitsight.entity.GraphImplementation;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -15,7 +14,7 @@ public class DependencyManagerTest {
 
     @Before
     public void setUp() {
-        underTest = new GraphImplementation();
+        underTest = new GraphDependencyManager();
     }
 
     @Test
@@ -41,5 +40,17 @@ public class DependencyManagerTest {
 
         final String result = underTest.resolve();
         assertEquals("1 4 3 5 2",result);
+    }
+
+    @Test
+    public void testStackOverflow() {
+        final int tasks = 5000;
+        underTest.init(tasks);
+
+        for(int i = 2; i <tasks; i++) {
+            underTest.addAllDependencies(i, i+1);
+        }
+
+        underTest.resolve();
     }
 }
