@@ -43,6 +43,7 @@ public class GraphDependencyManager implements DependencyManager {
     public String resolve() {
         traverse(DUMMY_ROOT);
         return resolvedDependencies.stream()
+                                   .filter(node -> node != DUMMY_ROOT)
                                    .map(String::valueOf)
                                    .collect(Collectors.joining(" "));
     }
@@ -65,7 +66,7 @@ public class GraphDependencyManager implements DependencyManager {
         }
 
         // check if there were changes in the nodes adjacencies after traversing (ignore dummy root)
-        if (node != DUMMY_ROOT && isResolved(children)) {
+        if (isResolved(children)) {
             resolvedDependencies.add(node);
         }
     }
