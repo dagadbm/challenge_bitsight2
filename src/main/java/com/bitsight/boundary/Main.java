@@ -18,19 +18,19 @@ public class Main {
 
         DependencyManagement dp = new DependencyManager();
         try (BufferedReader br = new BufferedReader(new FileReader(args[0]))) {
+            // initialize dependency management
             final String firstLine = br.readLine();
             String[] tokens = firstLine.split(" ");
             final Integer numberOfTasks = Integer.valueOf(tokens[0]);
-
             dp.init(numberOfTasks);
 
+            // add dependencies per task
             String line;
             while ((line = br.readLine()) != null) {
                 if (!line.isEmpty()) {
                     tokens = line.split(" ");
                     final int task = Integer.valueOf(tokens[0]);
 
-                    //task dependencies dep1 dep2 -> 1 2 4 2
                     final List<Integer> dependencies = new ArrayList();
                     for (int i = 2; i < tokens.length; i++) {
                         dependencies.add(Integer.valueOf(tokens[i]));
@@ -40,9 +40,10 @@ public class Main {
                 }
             }
 
-            System.out.println(dp.resolve());
+            // solve
+            System.out.print(dp.resolve());
         } catch (IOException e) {
-            System.err.println(e.getMessage());
+            System.err.print(e.getMessage());
         }
     }
 }

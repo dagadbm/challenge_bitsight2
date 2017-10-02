@@ -8,7 +8,6 @@ public class Task<E extends Comparable> implements Comparable<Task<E>> {
     private E id;
     private Set<Task<E>> dependents;
     private Set<Task<E>> dependencies;
-    private boolean visited;
 
     public Task(E id) {
         dependencies = new HashSet();
@@ -42,14 +41,6 @@ public class Task<E extends Comparable> implements Comparable<Task<E>> {
 
     public void setDependencies(Set<Task<E>> dependencies) {
         this.dependencies = dependencies;
-    }
-
-    public boolean isVisited() {
-        return visited;
-    }
-
-    public void setVisited(boolean visited) {
-        this.visited = visited;
     }
 
     @Override

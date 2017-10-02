@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="460c2306-f8e7-45ae-95ed-6658a82d73ef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bitsight/controller/DependencyManagement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bitsight/entity/Task.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/bitsight/entity/TaskTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/bitsight/controller/GraphDependencyManager.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bitsight/boundary/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/bitsight/boundary/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bitsight/controller/DependencyManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/bitsight/controller/DependencyManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bitsight/entity/Task.java" afterPath="$PROJECT_DIR$/src/main/java/com/bitsight/entity/Task.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/test.file" afterPath="$PROJECT_DIR$/src/main/resources/test.file" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/bitsight/controller/DependencyManagerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/bitsight/controller/DependencyManagerTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,11 +23,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DependencyManagement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/controller/DependencyManagement.java">
+      <file leaf-file-name="test.file" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/test.file">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="68">
+              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -40,8 +36,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/boundary/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="175">
+              <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.file" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/test.file">
+      <file leaf-file-name="DependencyManagement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/controller/DependencyManagement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -62,56 +58,29 @@
       <file leaf-file-name="DependencyManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/controller/DependencyManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            <state relative-caret-position="204">
+              <caret line="47" column="29" lean-forward="false" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/List.java">
+      <file leaf-file-name="Comparator.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Comparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="110" column="39" lean-forward="false" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
+            <state relative-caret-position="299">
+              <caret line="149" column="8" lean-forward="false" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Collection.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Collection.java">
+      <file leaf-file-name="DependencyManagerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/bitsight/controller/DependencyManagerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="142" column="0" lean-forward="true" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-              <folding>
-                <element signature="e#26957#26958#0" expanded="true" />
-                <element signature="e#27022#27023#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Iterable.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Iterable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="44" column="17" lean-forward="false" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+            <state relative-caret-position="345">
+              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Task.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/entity/Task.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1896#1897#0" expanded="true" />
-                <element signature="e#1932#1933#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -119,20 +88,36 @@
       <file leaf-file-name="TaskTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/bitsight/entity/TaskTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="629">
+              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DependencyManagerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/bitsight/controller/DependencyManagerTest.java">
+      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+            <state relative-caret-position="176">
+              <caret line="138" column="8" lean-forward="false" selection-start-line="138" selection-start-column="8" selection-end-line="138" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/entity/Task.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+                <element signature="e#887#888#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -191,11 +176,12 @@
         <option value="$PROJECT_DIR$/src/test/java/com/bitsight/controller/DependencyManagerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bitsight/controller/DependencyManagement.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bitsight/controller/DependencyManagerImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bitsight/entity/Task.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bitsight/controller/entity/Task.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bitsight/controller/DependencyManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bitsight/boundary/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bitsight/entity/Task.java" />
         <option value="$PROJECT_DIR$/src/main/resources/test.file" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bitsight/boundary/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bitsight/controller/DependencyManagerKahn.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bitsight/controller/DependencyManager.java" />
       </list>
     </option>
   </component>
@@ -215,7 +201,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1924" />
+    <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
@@ -233,6 +219,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -419,8 +407,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -1055,9 +1041,9 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DependencyManagerTest.outOfBounds" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DependencyManagerTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TaskTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DependencyManagerTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TaskTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DependencyManagerTest.outOfBounds" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.DependencyManagerTest.exercise" />
       </list>
     </recent_temporary>
@@ -1082,24 +1068,23 @@
       <updated>1506784777275</updated>
       <workItem from="1506784781970" duration="13847000" />
       <workItem from="1506824242495" duration="397000" />
-      <workItem from="1506845399955" duration="25878000" />
+      <workItem from="1506845399955" duration="26416000" />
+      <workItem from="1506873672753" duration="165000" />
+      <workItem from="1506963299472" duration="4435000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DependencyManagerTest - 2017.10.01 at 16h 07m 29s.xml">
-      <configuration name="DependencyManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DependencyManagerTest - 2017.10.01 at 16h 08m 10s.xml">
-      <configuration name="DependencyManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DependencyManagerTest - 2017.10.01 at 16h 08m 58s.xml">
-      <configuration name="DependencyManagerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DependencyManagerTest - 2017.10.01 at 16h 09m 27s.xml">
-      <configuration name="DependencyManagerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DependencyManagerTest - 2017.10.01 at 16h 11m 28s.xml">
+      <configuration name="DependencyManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DependencyManagerTest - 2017.10.01 at 17h 02m 31s.xml">
+      <configuration name="DependencyManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DependencyManagerTest - 2017.10.02 at 18h 41m 49s.xml">
+      <configuration name="DependencyManagerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DependencyManagerTest - 2017.10.02 at 19h 09m 26s.xml">
       <configuration name="DependencyManagerTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DependencyManagerTest_exercise - 2017.10.01 at 16h 08m 13s.xml">
@@ -1117,12 +1102,15 @@
     <history-entry file="TaskTest - 2017.10.01 at 16h 11m 20s.xml">
       <configuration name="TaskTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TaskTest - 2017.10.02 at 19h 09m 21s.xml">
+      <configuration name="TaskTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40122000" />
+    <option name="totallyTimeSpent" value="45260000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1135,12 +1123,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.50214595" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553648" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25906184" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1198,18 +1186,24 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/bitsight/boundary/Main.java</url>
-          <line>14</line>
+          <line>43</line>
           <properties />
-          <option name="timeStamp" value="14" />
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/bitsight/controller/DependencyManager.java</url>
-          <line>30</line>
+          <line>55</line>
           <properties />
-          <option name="timeStamp" value="44" />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bitsight/controller/DependencyManager.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="45" />
+      <option name="time" value="49" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -1219,6 +1213,12 @@
         <watch expression="updatedTask" language="JAVA" />
         <watch expression="tasks.get(4).compareTo(tasks.get(2))" language="JAVA" />
       </configuration>
+      <configuration name="Application">
+        <watch expression="resolvedDependencies.size() == ((HashMap) tasks).size" language="JAVA" />
+        <watch expression="!allTasksResolved" language="JAVA" />
+        <watch expression="allTasksResolved" language="JAVA" />
+        <watch expression="((HashMap) tasks).size()" language="JAVA" />
+      </configuration>
     </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1226,19 +1226,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/nio/file/Paths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="37" column="19" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#5728#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2673#2674#0" expanded="false" />
-            <element signature="e#2741#2742#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/controller/DependencyManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -1247,21 +1234,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/entity/Edge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/entity/Edge.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bitsight/controller/DependencyManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1285,41 +1263,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16473">
           <caret line="969" column="23" lean-forward="false" selection-start-line="969" selection-start-column="23" selection-end-line="969" selection-end-column="23" />
-          <folding>
-            <element signature="e#40171#40172#0" expanded="false" />
-            <element signature="e#40220#40221#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/controller/ProjectFileParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/controller/ProjectFileParser.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/nio/file/Files.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="55080">
           <caret line="3240" column="31" lean-forward="false" selection-start-line="3240" selection-start-column="31" selection-end-line="3240" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#169439#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2577#2578#0" expanded="false" />
-            <element signature="e#2631#2632#0" expanded="false" />
-            <element signature="e#22197#22198#0" expanded="false" />
-            <element signature="e#22272#22273#0" expanded="false" />
-            <element signature="e#70449#70450#0" expanded="false" />
-            <element signature="e#70543#70544#0" expanded="false" />
-            <element signature="e#111862#111863#0" expanded="false" />
-            <element signature="e#111920#111921#0" expanded="false" />
-            <element signature="e#113425#113426#0" expanded="false" />
-            <element signature="e#113484#113485#0" expanded="false" />
-            <element signature="e#115258#115259#0" expanded="false" />
-            <element signature="e#115319#115320#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1327,12 +1278,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="37" column="19" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#5728#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2673#2674#0" expanded="false" />
-            <element signature="e#2741#2742#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1344,21 +1289,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/entity/Edge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/entity/Edge.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/bitsight/controller/DependencyManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="50" column="32" lean-forward="false" selection-start-line="50" selection-start-column="32" selection-end-line="50" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1427,12 +1363,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="37" column="19" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#5728#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2673#2674#0" expanded="false" />
-            <element signature="e#2741#2742#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1440,41 +1370,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53635">
           <caret line="3240" column="31" lean-forward="false" selection-start-line="3240" selection-start-column="31" selection-end-line="3240" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#169439#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2577#2578#0" expanded="false" />
-            <element signature="e#2631#2632#0" expanded="false" />
-            <element signature="e#22197#22198#0" expanded="false" />
-            <element signature="e#22272#22273#0" expanded="false" />
-            <element signature="e#70449#70450#0" expanded="false" />
-            <element signature="e#70543#70544#0" expanded="false" />
-            <element signature="e#111862#111863#0" expanded="false" />
-            <element signature="e#111920#111921#0" expanded="false" />
-            <element signature="e#113425#113426#0" expanded="false" />
-            <element signature="e#113484#113485#0" expanded="false" />
-            <element signature="e#115258#115259#0" expanded="false" />
-            <element signature="e#115319#115320#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/entity/Edge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/entity/Edge.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="969" column="23" lean-forward="false" selection-start-line="969" selection-start-column="23" selection-end-line="969" selection-end-column="23" />
-          <folding>
-            <element signature="e#40171#40172#0" expanded="false" />
-            <element signature="e#40220#40221#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1482,25 +1385,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="833" column="0" lean-forward="false" selection-start-line="833" selection-start-column="0" selection-end-line="833" selection-end-column="0" />
-          <folding>
-            <element signature="e#30716#30717#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/controller/ProjectFileParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/controller/ProjectFileParser.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="198" column="6" lean-forward="false" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1508,7 +1400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="553" column="13" lean-forward="false" selection-start-line="553" selection-start-column="13" selection-end-line="553" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1516,7 +1407,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
           <caret line="905" column="22" lean-forward="false" selection-start-line="905" selection-start-column="22" selection-end-line="905" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1524,7 +1414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1532,7 +1421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="60" column="22" lean-forward="false" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1549,8 +1437,8 @@
         <state relative-caret-position="189">
           <caret line="81" column="48" lean-forward="true" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
           <folding>
-            <element signature="e#12127#12128#0" expanded="true" />
-            <element signature="e#12158#12159#0" expanded="true" />
+            <element signature="e#12127#12128#0" expanded="false" />
+            <element signature="e#12158#12159#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1559,7 +1447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="54" column="22" lean-forward="false" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1568,8 +1455,8 @@
         <state relative-caret-position="-170">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#47036#47037#0" expanded="true" />
-            <element signature="e#47092#47093#0" expanded="true" />
+            <element signature="e#47036#47037#0" expanded="false" />
+            <element signature="e#47092#47093#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1598,19 +1485,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="211" column="6" lean-forward="false" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1635,73 +1513,91 @@
         <state relative-caret-position="682">
           <caret line="142" column="0" lean-forward="true" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
           <folding>
-            <element signature="e#26957#26958#0" expanded="true" />
-            <element signature="e#27022#27023#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/boundary/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#26957#26958#0" expanded="false" />
+            <element signature="e#27022#27023#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/test.file">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bitsight/entity/TaskTest.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="176">
+          <caret line="138" column="8" lean-forward="false" selection-start-line="138" selection-start-column="8" selection-end-line="138" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bitsight/controller/DependencyManagerTest.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/controller/DependencyManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        <state relative-caret-position="299">
+          <caret line="149" column="8" lean-forward="false" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/controller/DependencyManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="204">
+          <caret line="47" column="29" lean-forward="false" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/controller/DependencyManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/boundary/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bitsight/entity/Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1896#1897#0" expanded="true" />
-            <element signature="e#1932#1933#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bitsight/entity/TaskTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bitsight/controller/DependencyManagerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
